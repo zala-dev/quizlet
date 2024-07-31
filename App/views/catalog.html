@@ -1,0 +1,14 @@
+<section>
+  <div class="container mt-5">
+    <div class="row" data-bind="foreach: catalogNames">
+      <!-- $parent.goToCards is view model method (catalog.js) -->
+      <div class="col-xs-12 col-sm-6 col-md-3 mb-4">
+        <div class="card h-100 bg-light" data-bind="click: $parent.goToCards">
+          <div class="card-body">
+            <h5 class="card-title" data-bind="text: $data"></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

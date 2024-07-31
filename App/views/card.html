@@ -1,0 +1,14 @@
+﻿<div class="card-container w-50">
+  <div class="card border border-light" data-bind="click: flip">
+    <div class="card-body">
+      <div class="col-12 front face border border-black">
+        <h4 data-bind="text: selected.card.frontHeading" class="card-title pt-3"></h4>
+        <p data-bind="text: selected.card.front" class="card-text pt-2"></p>
+      </div>
+      <div class="col-12 back face bg-dark text-light">
+        <h4 data-bind="text: selected.card.backHeading" class="card-title pt-3"></h4>
+        <p data-bind="text: selected.card.back" class="card-text pt-2"></p>
+      </div>
+    </div>
+  </div>
+</div>
