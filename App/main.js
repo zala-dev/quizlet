@@ -14,7 +14,7 @@ define(["durandal/system", "durandal/app", "durandal/viewLocator"], function (
   app,
   viewLocator
 ) {
-  system.debug(true);
+  system.debug(false);
 
   app.title = "My Durandal App";
 
